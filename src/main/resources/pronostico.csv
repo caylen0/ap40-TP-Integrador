@@ -1,3 +1,8 @@
-Argentina,0,0,1,Arabia Saudita
-Polonia,0,1,0,Mexico
-Brasil,1,0,0,Ghana
+Mariana,Argentina,1,0,0,Arabia Saudita
+Mariana,Polonia,0,1,0,Mexico
+Mariana,Argentina,1,0,0,Mexico
+Mariana,Arabia Saudita,0,0,1,Polonia
+Pedro,Argentina,1,0,0,Arabia Saudita
+Pedro,Polonia,0,0,1,Mexico
+Pedro,Argentina,1,0,0,Mexico
+Pedro,Arabia Saudita,0,1,0,Polonia
