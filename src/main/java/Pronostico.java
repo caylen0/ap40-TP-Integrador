@@ -2,7 +2,7 @@
 public class Pronostico {
 	public Partido partido;
 	public Equipo equipo;
-	public String resultado;
+	public ResultadoEnum resultado;
 	
 
 	public Partido getPartido() {
@@ -21,18 +21,18 @@ public class Pronostico {
 		this.equipo = equipo;
 	}
 
-	public Pronostico(Partido partido, Equipo equipo, String resultado) {
+	public Pronostico(Partido partido, Equipo equipo, ResultadoEnum resultado) {
 		super();
 		this.partido = partido;
 		this.equipo = equipo;
 		this.resultado = resultado;
 	}
 
-	public String getResultado() {
+	public ResultadoEnum getResultado() {
 		return resultado;
 	}
 
-	public void setResultado(String resultado) {
+	public void setResultado(ResultadoEnum resultado) {
 		this.resultado = resultado;
 	}	
 	

@@ -46,15 +46,15 @@ public class Partido {
 		this.goles_equipo2 = goles_equipo2;
 	}
 	
-	public String resultado(Equipo equipo) {
+	public ResultadoEnum resultado(Equipo equipo) {
 		
 		if (this.getGoles_equipo1() > this.getGoles_equipo2()) {
-			return "ganador";
+			return ResultadoEnum.GANADOR;
 		}
 		else if (this.getGoles_equipo1() < this.getGoles_equipo2()) {
-			return "perdedor";
+			return ResultadoEnum.PERDEDOR;
 		}
-		return "empate";
+		return ResultadoEnum.EMPATE;
 	}
 	
 }
